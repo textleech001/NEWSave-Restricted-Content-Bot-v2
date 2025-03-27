@@ -1,6 +1,6 @@
 {
   "name": "Save Restricted Content Bot master-v1 branch",
-  "description": "Save Restricted Content Bot by Team SPY",
+  "description": "Save Restricted Content Bot by KING PROJECT",
   "logo": "https://ibb.co/wrChk8YR",
   "keywords": ["python3", "telegram", "MusicBot", "telegram-bot", "pyrogram"],
   "repository": "https://github.com/devgaganin/save_restricted-content-telegram-bot-repo",
@@ -38,7 +38,7 @@
     },
     "PREMIUM_LIMIT": {
       "description": "Batch size for premium users",
-      "value": "500",
+      "value": "5000",
       "required": true
     },
     "STRING": {
@@ -55,7 +55,7 @@
     
     "WEBSITE_URL": {
       "description": "Enter shortener website domain eg upshrink.com",
-      "value": "upshrink.com",
+      "value": "modijiurl.com",
       "required": false
     },
     "AD_API": {
