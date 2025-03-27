@@ -50,5 +50,3 @@ async def del_user(user):
   else:
     await db.users.delete_one({"user": user})
     
-
-
