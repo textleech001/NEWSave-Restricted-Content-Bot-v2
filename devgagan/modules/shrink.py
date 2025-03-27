@@ -86,7 +86,7 @@ async def token_handler(client, message):
                 "Hi 👋 Welcome, Wanna intro...?\n\n"
                 "🤖 I'm Save Restricted Content Bot, 
 You can use me for getting Any type of Protected Message from any Public/Private Channel/Group or Bot. I can download videos/audio from YT, INSTA, ... social platforms\n"           
-                "🤖 Simply send the post link of a public channel. For private channels, do /login. Send /help to know more."
+                "🤖 Simply send the post link of a public channel. For private channels, do /login. Send /help to know more\n"
                 "🤖 Note: 18+ content is not allowed.
             ),
             reply_markup=keyboard
