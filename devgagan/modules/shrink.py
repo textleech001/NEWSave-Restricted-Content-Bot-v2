@@ -72,7 +72,7 @@ async def token_handler(client, message):
     msg = await app.get_messages(chat_id, 796)
     user_id = message.chat.id
     if len(message.command) <= 1:
-        image_url = "https://ibb.co/wrChk8YR"
+        image_url = "https://telegra.ph/file/32f106d692ff33700c464.jpg"
         join_button = InlineKeyboardButton("Join Channel", url="https://t.me/premiumKingProjects")
         premium = InlineKeyboardButton("Get Premium", url="https://t.me/PremiumThoughtsBot")   
         keyboard = InlineKeyboardMarkup([
@@ -84,8 +84,8 @@ async def token_handler(client, message):
             msg.photo.file_id,
             caption=(
                 "Hi 👋 Welcome, Wanna intro...?\n\n"
-                "✳️ I can save posts from channels or groups where forwarding is off. I can download videos/audio from YT, INSTA, ... social platforms\n"
-                "✳️ Simply send the post link of a public channel. For private channels, do /login. Send /help to know more."
+                "🤖 I can save posts from channels or groups where forwarding is off. I can download videos/audio from YT, INSTA, ... social platforms\n"
+                "🤖 Simply send the post link of a public channel. For private channels, do /login. Send /help to know more."
             ),
             reply_markup=keyboard
         )
